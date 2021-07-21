@@ -1,12 +1,14 @@
 version: 2
 updates:
   - package-ecosystem: "terraform"
-    directory: "/major/"
+    directory: "major"
   - package-ecosystem: "terraform"
-    directory: "/minor"
-    dependency-name: '*'
+    directory: "minor"
+    ignore:
+      dependency-name: '*'
       update-types: ["version-update:semver-major"]
   - package-ecosystem: "terraform"
-    directory: "/patch"
-    dependency-name: '*'
+    directory: "patch"
+    ignore:
+      dependency-name: '*'
       update-types: ["version-update:semver-major", "version-update:semver-minor"]
