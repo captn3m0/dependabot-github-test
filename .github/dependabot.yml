@@ -2,13 +2,19 @@ version: 2
 updates:
   - package-ecosystem: "terraform"
     directory: "major"
+    schedule:
+      interval: daily
   - package-ecosystem: "terraform"
     directory: "minor"
+    schedule:
+      interval: daily
     ignore:
       dependency-name: '*'
       update-types: ["version-update:semver-major"]
   - package-ecosystem: "terraform"
     directory: "patch"
+    schedule:
+      interval: daily
     ignore:
       dependency-name: '*'
       update-types: ["version-update:semver-major", "version-update:semver-minor"]
