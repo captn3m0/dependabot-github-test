@@ -22,3 +22,7 @@ updates:
     directory: "kernel"
     schedule:
       interval: daily
+  - package-ecosystem: "terraform"
+    directory: "hg"
+    schedule:
+      interval: daily
