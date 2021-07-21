@@ -5,3 +5,7 @@ module "basic-test" {
 module "playtube" {
   source = "git::https://github.com/captn3m0/playtube?ref=v1.0.0"
 }
+
+module "playtube" {
+  source = "git::https://github.com/captn3m0/playtube?ref=v2.0.0"
+}
