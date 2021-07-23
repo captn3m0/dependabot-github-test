@@ -25,7 +25,7 @@ updates:
   - package-ecosystem: "terraform"
     directory: "json"
     schedule:
-      interval: daily
+      interval: weekly
   - package-ecosystem: "terraform"
     directory: "hg"
     schedule:
