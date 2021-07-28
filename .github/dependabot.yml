@@ -5,6 +5,10 @@ updates:
     schedule:
       interval: daily
   - package-ecosystem: "terraform"
+    directory: "no-patch"
+    schedule:
+      interval: daily
+  - package-ecosystem: "terraform"
     directory: "minor"
     schedule:
       interval: daily
