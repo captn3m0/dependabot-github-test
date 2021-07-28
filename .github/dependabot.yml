@@ -16,6 +16,13 @@ updates:
       - dependency-name: '*'
         update-types: ["version-update:semver-major"]
   - package-ecosystem: "terraform"
+    directory: "spring"
+    schedule:
+      interval: daily
+    ignore:
+      - dependency-name: '*'
+        update-types: ["version-update:semver-major"]
+  - package-ecosystem: "terraform"
     directory: "patch"
     schedule:
       interval: weekly
