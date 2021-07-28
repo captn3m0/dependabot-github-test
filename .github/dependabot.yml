@@ -48,3 +48,7 @@ updates:
     directory: "hg"
     schedule:
       interval: daily
+  - package-ecosystem: "terraform"
+    directory: "golang"
+    schedule:
+      interval: daily
