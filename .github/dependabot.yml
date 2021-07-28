@@ -56,3 +56,7 @@ updates:
     directory: "godot"
     schedule:
       interval: daily
+  - package-ecosystem: "terraform"
+    directory: "maria"
+    schedule:
+      interval: daily
