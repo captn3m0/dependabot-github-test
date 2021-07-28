@@ -57,6 +57,6 @@ updates:
     schedule:
       interval: daily
   - package-ecosystem: "terraform"
-    directory: "maria"
+    directory: "pg"
     schedule:
       interval: daily
