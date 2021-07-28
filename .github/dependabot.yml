@@ -52,3 +52,7 @@ updates:
     directory: "golang"
     schedule:
       interval: daily
+  - package-ecosystem: "terraform"
+    directory: "godot"
+    schedule:
+      interval: daily
