@@ -1,3 +1,3 @@
 module "rails" {
-  source = "git::https://github.com/rails/rails?ref=v6.0"
+  source = "git::https://github.com/rails/rails?ref=v7.0.2.4"
 }
