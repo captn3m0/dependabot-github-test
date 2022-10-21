@@ -1,1 +1,1 @@
-FROM amazonlinux:2.0.20210617.0
+FROM amazonlinux:2.0.20221004.0
